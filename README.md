@@ -8,3 +8,9 @@ After quite a while you should see the 3.8 WA Setup GUI, Click Next, leave the p
 
 ## Run
 Run `./run.sh`
+
+
+## Known Issues
+
+- No Sound on Linux (not sure why). 
+- No Sound on Mac (Not supported by docker-wine)
