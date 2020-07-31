@@ -18,4 +18,9 @@ if [ ! -f WA_update-3.8_\[CD\]_Installer.exe ]; then
   wget https://worms2d.info/files/WA_update-3.8_%5BCD%5D_Installer.exe
 fi
 
-./docker-wine --volume="$(pwd):/home/wineuser/WA/" --as-root /bin/bash -c "/home/wineuser/WA/client-install.sh" 
+if [ ! -f wkWormNAT2-tfgdbproxy.zip ]; then
+  wget https://github.com/daves-studio/MyWormNET2/releases/download/v1.0.1/wkWormNAT2-tfgdbproxy.zip
+fi
+
+
+./docker-wine --volume="$(pwd):/home/wineuser/WA/" --as-root /bin/bash -c "/home/wineuser/WA/client-install.sh"
