@@ -9,8 +9,10 @@ After quite a while you should see the 3.8 WA Setup GUI, Click Next, leave the p
 ## Run
 Run `./run.sh`
 
+## To Use Hosting Proxy
+Go to settings and Turn on WormKit Modules and also Community Server List. (Bug in UI means only first option will be changed). Reload WA.
 
 ## Known Issues
 
-- No Sound on Linux (not sure why). 
+- No Sound on Linux (not sure why).
 - No Sound on Mac (Not supported by docker-wine)
