@@ -1,0 +1,48 @@
+
+[Software\\Team17SoftwareLTD\\WormsArmageddon] 1596230169
+#time=1d6677fcf59ac52
+"PATH"="C:\\Program Files (x86)\\WA"
+
+[Software\\Team17SoftwareLTD\\WormsArmageddon\\Options] 1596230191
+#time=1d6677fdc93a2f6
+"AssistedVsync"=dword:00000000
+"AutomaticallyRegisterAssociations"=dword:00000000
+"CD Tracks"=dword:0000007f
+"ColourDeficiency"=dword:00000000
+"DisableBackgroundGradientParallax"=dword:00000000
+"DisablePhone"=dword:00000000
+"DisableSmoothBackgroundGradient"=dword:00000000
+"DisableUIAnimations"=dword:00000000
+"DisplayXSize"=dword:00000780
+"DisplayYSize"=dword:00000438
+"ErgonomicWeapons"=dword:00000001
+"FrontendFontDynamicAntialiasing"=dword:00000001
+"FrontendPaletteFix"=dword:0000000f
+"HardwareRendering"=dword:00000000
+"Language"=dword:00000007
+"LanguageName"="English"
+"LargerFonts"=dword:00000000
+"LegacyUtilityKey"=dword:00000000
+"LoadWormKitModules"=dword:00000000
+"LocalProgressOverride"=dword:5947999b
+"MapAreaWarnLimit"=dword:00800000
+"MapDetailAMax"=dword:00000064
+"MapDetailAMin"=dword:00000064
+"MapDetailBMax"=dword:00000064
+"MapDetailBMin"=dword:00000064
+"OfflineRopeKnocking"=dword:00000000
+"PlayAudioInBackground"=dword:00000000
+"Renderer"=dword:00000004
+"SkipIntro"=dword:00000000
+"SlowFrontendWorkaround"=dword:00000000
+"StereoFactor"=dword:00010000
+"StreamingMode"=dword:00000000
+"TimerWorkaround"=dword:00000000
+"UseCommunityServerList"=dword:00000000
+"UseHardwareCursors"=dword:00000001
+"UseVRAM"=dword:00000001
+"Volume"=dword:00000001
+"VolumeFX"=dword:00000064
+"Vsync"=dword:00000001
+"WindowedMode"=dword:00000001
+"WineCompatibilitySuggested"=dword:00000002
