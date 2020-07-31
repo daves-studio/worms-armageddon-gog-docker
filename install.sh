@@ -18,4 +18,4 @@ if [ ! -f WA_update-3.8_\[CD\]_Installer.exe ]; then
   wget https://worms2d.info/files/WA_update-3.8_%5BCD%5D_Installer.exe
 fi
 
-sudo ./docker-wine --volume="$(pwd):/home/wineuser/WA/" --as-root /bin/bash -c "/home/wineuser/WA/client-install.sh" 
+./docker-wine --volume="$(pwd):/home/wineuser/WA/" --as-root /bin/bash -c "/home/wineuser/WA/client-install.sh" 
