@@ -46,10 +46,10 @@ if [ ! -f wkWormNAT2-tfgdbproxy.zip ]; then
     curl https://github.com/daves-studio/MyWormNET2/releases/download/v1.0.1/wkWormNAT2-tfgdbproxy.zip -o wkWormNAT2-tfgdbproxy.zip
   fi
 fi
-#
-# # Initialise .wine folder
-# ./docker-wine wine cmd.exe /C "echo Initialised .wine folder"
-#
-# # Install WA
-# # Have to run as root as we need to use apt in container
-# ./docker-wine --volume="$(pwd):/home/wineuser/WA/" --as-root /bin/bash -c "/home/wineuser/WA/WA-install.sh"
+
+# Initialise .wine folder
+./docker-wine wine cmd.exe /C "echo Initialised .wine folder"
+
+# Install WA
+# Have to run as root as we need to use apt in container
+./docker-wine --volume="$(pwd):/home/wineuser/WA/" --as-root /bin/bash -c "/home/wineuser/WA/WA-install.sh"
